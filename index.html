@@ -63,7 +63,7 @@
       </div>
     </div>
     <figure style="margin:0">
-      <div class="plate" style="filter:none"><img src="w1.jpg" alt="作品 sample" style="width:100%"></div>
+      <div class="plate" style="filter:none"><img src="w13.jpg" alt="作品 sample" style="width:100%"></div>
       <figcaption style="font-family:'Noto Serif TC',serif">近期作品 ／ 正比全身場景插圖</figcaption>
     </figure>
   </header>
@@ -78,6 +78,17 @@
     </div>
 
     <div style="display:grid;gap:34px">
+      <div>
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:12px">
+          <h4 style="font-weight:400;font-size:21px;margin:0">精緻半身像</h4>
+          <span class="text-muted" style="font-size:11.5px">NT$1800</span><span class="rule"></span>
+        </div>
+        <div class="strip">
+          <button data-zoom="w11.jpg"><div class="plate" style="filter:none;height:320px"><img src="w11.jpg" alt="作品 sample" style="height:100%;width:auto"></div></button>
+          <button data-zoom="w12.jpg"><div class="plate" style="filter:none;height:320px"><img src="w12.jpg" alt="作品 sample" style="height:100%;width:auto"></div></button>
+        </div>
+      </div>
+
       <div>
         <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:12px">
           <h4 style="font-weight:400;font-size:21px;margin:0">正比立繪</h4>
@@ -95,6 +106,7 @@
           <span class="text-muted" style="font-size:11.5px">NT$6000 起</span><span class="rule"></span>
         </div>
         <div class="strip">
+          <button data-zoom="w13.jpg"><div class="plate" style="filter:none;height:300px"><img src="w13.jpg" alt="作品 sample" style="height:100%;width:auto"></div></button>
           <button data-zoom="w1.jpg"><div class="plate" style="filter:none;height:300px"><img src="w1.jpg" alt="作品 sample" style="height:100%;width:auto"></div></button>
           <button data-zoom="w4.jpg"><div class="plate" style="filter:none;height:300px"><img src="w4.jpg" alt="作品 sample" style="height:100%;width:auto"></div></button>
           <button data-zoom="w5.jpg"><div class="plate" style="filter:none;height:300px"><img src="w5.jpg" alt="作品 sample" style="height:100%;width:auto"></div></button>
@@ -308,12 +320,14 @@ var CAPACITY = 5;
 var PRICES = [
   { name:"Q版全身", kind:"立繪", price:"NT$900", desc:"草稿修改2次、線稿修改1次、調色階段5次且不可更動線稿" },
   { name:"正比靜態立繪", kind:"立繪", price:"NT$2200", desc:"草稿修改2次、線稿修改1次、調色階段5次且不可更動線稿" },
+  { name:"精緻半身像", kind:"立繪", price:"NT$1800", desc:"草稿修改2次、線稿修改1次、調色階段5次且不可更動線稿" },
   { name:"Q版場景插圖驚喜包", kind:"場景插圖", price:"NT$1000up自由打賞", desc:"一鍵出圖，非設定畫錯不修改" },
   { name:"正比全身場景插圖", kind:"場景插圖", price:"NT$6000up", desc:"草稿修改1次、線稿修改1次、調色階段3次且不可更動線稿" }
 ];
 var BASES = [
   { name:"Q版全身", min:900, max:900, up:false },
   { name:"正比靜態立繪", min:2200, max:2200, up:false },
+  { name:"精緻半身像", min:1800, max:1800, up:false },
   { name:"Q版場景插圖驚喜包", min:1000, max:1000, up:true },
   { name:"正比全身場景插圖", min:6000, max:6000, up:true }
 ];
